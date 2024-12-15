@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--================================================
+       Project Name: Flux
+       Author: JohnDev19
+       License: MIT
+       Last Update: December 2024
+=====================================================    
+      Technologies Used: 
+         - HTML5
+         - CSS3
+         - JavaScript
+         - Bootstrap Icons
+         - Responsive Design
+         - Grid Layout
+         - Flexbox
+         - CSS Variables
+         - CSS Animations
+=====================================================
+      Table of Contents:
+         1. Header / Navigation
+         2. Hero Section
+         3. Tech Resources
+         4. About Section
+         5. Blog Posts
+         6. Testimonials
+         7. Contact Form
+         8. Tech Events
+         9. Footer
+         10. Responsive Design
+===================================================-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux Blog</title>
+    <meta name="description" content="Flux is more than just a blog – we're a dynamic platform dedicated to exploring the frontiers of technological innovation.">
+    <meta name="keywords" content="blogging platform, blogger, web design, web template">
+    <meta name="author" content="JohnDev19">
+    
+    <!-- Open graph / facebook meta tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.flux.com/">
+    <meta property="og:title" content="Flux Blog">
+    <meta property="og:description" content="Flux is more than just a blog – we're a dynamic platform dedicated to exploring the frontiers of technological innovation.">
+    <meta property="og:image" content="poster1.jpg">
+    
+    <!-- Twitter (X) meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.Flux.com/">
+    <meta name="twitter:title" content="Flux Blog">
+    <meta name="twitter:description" content="Flux is more than just a blog – we're a dynamic platform dedicated to exploring the frontiers of technological innovation.">
+    <meta name="twitter:image" content="poster1.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- External stylesheets -->  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<!--=============== 1. Header / Navigation ======================-->
+    <header>
+        <nav data-aos="fade-in" data-aos-duration="4000">
+            <div class="logo">
+            <a href="#home">
+                <img src="images/logo.png" alt="Flux Logo" class="logo-image">
+            </a>
+        </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+  <!--=================== 2. Hero Section ========================-->
+        <section id="home" class="hero">
+            <div class="hero-shapes">
+                <div class="hero-shape"></div>
+                <div class="hero-shape"></div>
+                <div class="hero-shape"></div>
+            </div>
+            
+       <div class="hero-content">
+            <div class="hero-text" data-aos="fade-in" data-aos-duration="4000">
+               <h1>Welcome to <span class="text-gradient">Flux</span></h1>
+                 <p>Exploring the cutting edge of technology and innovation</p>
+                 <a href="#blog" class="cta-button">Explore Our Blog</a>
+                </div>
+            <div class="hero-image" data-aos="fade-in" data-aos-duration="4000">
+              <img src="images/hero_element.png" alt="Tech Innovation" />
+            </div>
+       </div>
+</section>
+
+<!--=================== 3. Tech Resources ========================-->
+<section id="resources" class="tech-resources">
+    <div class="resources-container">
+        <div class="resources-header" data-aos="fade-in" data-aos-duration="4000">
+            <h2>Recommended <span class="text-gradient">Tech Resources</span></h2>
+            <p class="resources-subtitle">Curated tools and learning paths to accelerate your tech journey</p>
+        </div>
+        <div class="resources-grid">
+            <div class="resource-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="resource-card-inner">
+                    <div class="resource-icon-wrapper">
+                        <i class="bi bi-book-half"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Learning Paths</h3>
+                        <p>Comprehensive guides for aspiring tech professionals</p>
+                        <div class="resource-meta">
+                            <span class="resource-difficulty">BeginnerFriendly</span>
+                            <span class="resource-courses">50+ Courses</span>
+                        </div>
+                        <a href="#" class="resource-link">
+                            Explore Paths 
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="resource-card-inner">
+                    <div class="resource-icon-wrapper">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Coding Platforms</h3>
+                        <p>Interactive coding challenges and real-world projects</p>
+                        <div class="resource-meta">
+                            <span class="resource-difficulty">Intermediate</span>
+                            <span class="resource-courses">100+ Challenges</span>
+                        </div>
+                        <a href="#" class="resource-link">
+                            Start Coding 
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="resource-card-inner">
+                    <div class="resource-icon-wrapper">
+                        <i class="bi bi-play-btn"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Video Tutorials</h3>
+                        <p>In-depth video content from industry experts</p>
+                        <div class="resource-meta">
+                            <span class="resource-difficulty">All video Levels</span>
+                            <span class="resource-courses">200+ Videos</span>
+                        </div>
+                        <a href="#" class="resource-link">
+                            Watch Now 
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="resource-card-inner">
+                    <div class="resource-icon-wrapper">
+                        <i class="bi bi-journal-code"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Tech Certifications</h3>
+                        <p>Verified credentials to boost your professional profile</p>
+                        <div class="resource-meta">
+                            <span class="resource-difficulty">Professional</span>
+                            <span class="resource-courses">Certifications</span>
+                        </div>
+                        <a href="#" class="resource-link">
+                            Get Certified 
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=================== 4. About Section ========================-->
+<section id="about" class="about">
+    <div class="about-container">
+        <div class="about-header" data-aos="fade-in" data-aos-duration="4000">
+            <h2>About <span class="text-gradient">Flux</span></h2>
+            <p class="about-subtitle">Pioneering Technology Insights</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text-wrapper">
+                <div class="about-icon-group">
+                    <div class="about-icon" data-aos="fade-in" data-aos-duration="4000">
+                        <i class="bi bi-lightbulb-fill"></i>
+                        <h4>Innovation</h4>
+                    </div>
+                    <div class="about-icon" data-aos="fade-in" data-aos-duration="4000">
+                        <i class="bi bi-graph-up"></i>
+                        <h4>Insight</h4>
+                    </div>
+                    <div class="about-icon" data-aos="fade-in" data-aos-duration="4000">
+                        <i class="bi bi-people-fill"></i>
+                        <h4>Community</h4>
+                    </div>
+                </div>
+                
+                <div class="about-description" data-aos="fade-in" data-aos-duration="4000">
+                    <p>Flux is more than just a blog – we're a dynamic platform dedicated to exploring the frontiers of technological innovation. Our mission is to demystify complex technological trends and make them accessible to everyone.</p>
+                </div>
+
+                <div class="about-highlights" data-aos="fade-in" data-aos-duration="4000">
+                    <div class="highlight">
+                        <span class="highlight-number">500+</span>
+                        <span class="highlight-label">Published Articles</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">50K+</span>
+                        <span class="highlight-label">Monthly Readers</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">10+</span>
+                        <span class="highlight-label">Expert Writers</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-visual">
+                <div class="about-image-container" data-aos="fade-in" data-aos-duration="4000">
+                    <div class="about-image-wrapper">
+                        <img src="images/about_element.jpg" alt="Flux Team" class="about-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=================== 5. Blog Posts ========================-->
+<section id="blog" class="blog-posts">
+      <h2 data-aos="fade-in" data-aos-duration="4000">Latest <span class="text-gradient">Blog Posts</span></h2>
+          <div class="post-grid" data-aos="fade-in" data-aos-duration="4000">
+             </div>
+              <div class="blog-navigation" data-aos="fade-in" data-aos-duration="4000">
+                <button id="prevButton" class="blog-nav-button" disabled>
+                <i class="bi bi-arrow-left"></i> Previous
+              </button>
+           <button id="nextButton" class="blog-nav-button">
+                    Next <i class="bi bi-arrow-right"></i>
+       </button>
+    </div>
+</section>
+
+<!--=================== 6. Testimonials ========================-->
+<section id="testimonials" class="testimonials">
+    <div class="testimonials-container">
+        <div class="testimonials-header" data-aos="fade-in" data-aos-duration="4000">
+            <h2>What Our <span class="text-gradient">Readers Say</span></h2>
+            <p class="testimonials-subtitle">Authentic experiences from our global tech community</p>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="testimonial-content">
+                    <div class="testimonial-quote">
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <p>Flux has transformed how I understand technology. The articles are not just informative, but truly inspiring and cutting-edge!</p>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/author1.jpg" alt="Sarah Bungal">
+                            <div class="avatar-border"></div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Bungal</h4>
+                            <span>Senior Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="testimonial-content">
+                    <div class="testimonial-quote">
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <p>As a startup founder, Flux provides me with invaluable insights into emerging technologies that are shaping our future.</p>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/author2.jpg" alt="Michael Rodriquez">
+                            <div class="avatar-border"></div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Rodriquez</h4>
+                            <span>Tech Entrepreneur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="testimonial-content">
+                    <div class="testimonial-quote">
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <p>The depth and quality of analysis on Flux is unparalleled. It's become my go-to resource for staying ahead in the tech world.</p>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/author3.jpg" alt="Baho Bilat">
+                            <div class="avatar-border"></div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Baho Bilat</h4>
+                            <span>AI Research Scientist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonial-indicators" data-aos="fade-in" data-aos-duration="4000"></div>
+    </div>
+</section>
+
+<!--=================== 7. Contact Form ========================-->
+<section id="contact" class="contact">
+    <div class="contact-container" data-aos="fade-in" data-aos-duration="4000">
+        <div class="contact-info">
+            <div class="contact-info-content" data-aos="fade-in" data-aos-duration="4000">
+                <h2>Contact <span class="text-gradient">Us</span></h2>
+                <p>Do you have a question or are you interested in collaborating with us? We would absolutely love to hear from you! Your thoughts and ideas are important to us, and we believe that great things can happen when we work together.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>contact@Flux.com</span>
+                    </div>
+                    <div class="contact-detail">
+                      <i class="bi bi-globe"></i>
+                      <span><a href="https://www.yourwebsite.com" target="_blank">Visit Our Website</a></span>
+                      </div>
+                    <div class="contact-detail">
+                        <i class="bi bi-phone-fill"></i>
+                        <span>+639123456789</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>123 Tech Avenue, Philippines</span>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+            <div class="contact-form-content">
+                <h2>Send a Message</h2>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!--=================== 8. Tech Events ========================-->
+<section id="events" class="tech-events">
+    <div class="events-container">
+        <div class="events-header" data-aos="fade-in" data-aos-duration="4000">
+            <h2>Upcoming <span class="text-gradient">Tech Events</span></h2>
+            <p class="events-subtitle">Explore cutting-edge conferences and workshops</p>
+        </div>
+        <div class="events-grid">
+            <div class="event-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="event-card-inner">
+                    <div class="event-date">
+                        <span class="month">Nov</span>
+                        <span class="day">15-17</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-badge">AI & Machine Learning</div>
+                        <h3>Global AI Summit 2024</h3>
+                        <div class="event-meta">
+                            <div class="event-location">
+                                <i class="bi bi-geo-alt"></i>
+                                Taguig, Manila
+                            </div>
+                            <div class="event-type">
+                                <i class="bi bi-laptop"></i>
+                                Hybrid Event
+                            </div>
+                        </div>
+                        <p>Join leading experts in discussing the future of AI technologies and groundbreaking innovations, as they explore the transformative impact of artificial intelligence on various industries and society as a whole.</p>
+                        <div class="event-actions">
+                            <a href="#" class="event-register">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <div class="event-speakers">
+                                <div class="speaker-avatars">
+                                    <img src="images/speaker1.jpg" alt="Speaker 1">
+                                    <img src="images/speaker2.jpg" alt="Speaker 2">
+                                    <img src="images/speaker3.jpg" alt="Speaker 3">
+                                    <span class="speaker-count">+5</span>
+                                </div>
+                                <span class="speakers-label">Top Industry Speakers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="event-card-inner">
+                    <div class="event-date">
+                        <span class="month">Dec</span>
+                        <span class="day">05-07</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-badge">Cybersecurity</div>
+                        <h3>Cyber Defense Conference</h3>
+                        <div class="event-meta">
+                            <div class="event-location">
+                                <i class="bi bi-geo-alt"></i>
+                                Makati, Manila
+                            </div>
+                            <div class="event-type">
+                                <i class="bi bi-camera-video"></i>
+                                Virtual Event
+                            </div>
+                        </div>
+                        <p>Explore the latest trends in cybersecurity, threat detection, and digital protection strategies, while gaining insights from industry leaders on how to safeguard your digital assets in an ever-evolving landscape.</p>
+                        <div class="event-actions">
+                            <a href="#" class="event-register">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <div class="event-speakers">
+                                <div class="speaker-avatars">
+                                    <img src="images/speaker4.jpg" alt="Speaker 4">
+                                    <img src="images/speaker5.jpg" alt="Speaker 5">
+                                    <img src="images/speaker6.jpg" alt="Speaker 6">
+                                    <span class="speaker-count">+4</span>
+                                </div>
+                                <span class="speakers-label">Security Experts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card" data-aos="fade-in" data-aos-duration="4000">
+                <div class="event-card-inner">
+                    <div class="event-date">
+                        <span class="month">Jan</span>
+                        <span class="day">20-22</span>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-badge">Web3 & Blockchain</div>
+                        <h3>Blockchain Innovation Summit</h3>
+                        <div class="event-meta">
+                            <div class="event-location">
+                                <i class="bi bi-geo-alt"></i>
+                                Marikina
+                            </div>
+                            <div class="event-type">
+                                <i class="bi bi-laptop"></i>
+                                Hybrid Event
+                            </div>
+                        </div>
+                        <p>Discover the latest advancements in blockchain technology, cryptocurrency, and decentralized systems, and learn how these innovations are transforming industries and reshaping the global economy.</p>
+                        <div class="event-actions">
+                            <a href="#" class="event-register">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <div class="event-speakers">
+                                <div class="speaker-avatars">
+                                    <img src="images/speaker7.jpg" alt="Speaker 7">
+                                    <img src="images/speaker8.jpg" alt="Speaker 8">
+                                    <img src="images/speaker9.jpg" alt="Speaker 9">
+                                    <span class="speaker-count">+6</span>
+                                </div>
+                                <span class="speakers-label">Blockchain Pioneers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<!--=================== 9. Footer ========================-->
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo-section">
+            <div class="footer-logo" data-aos="fade-in" data-aos-duration="4000">
+                <img src="images/logo.png" alt="Flux Logo">
+                <span class="footer-logo-title">Flux</span>
+            </div>
+            <p class="footer-description" data-aos="fade-in" data-aos-duration="4000">
+                Flux is a leading technology blog dedicated to exploring 
+                the latest innovations, trends, and insights in the tech world.
+            </p>
+            <div class="footer-social" data-aos="fade-in" data-aos-duration="4000">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="footer-subscribe" data-aos="fade-in" data-aos-duration="4000">
+              <input type="email" placeholder="Subscribe to our newsletter" required>
+              <button type="submit">Subscribe</button>
+              </div>
+        </div>
+
+        <div class="footer-section" data-aos="fade-in" data-aos-duration="4000">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" data-aos="fade-in" data-aos-duration="4000">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">AI & Machine Learning</a></li>
+                <li><a href="#">Cybersecurity</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Blockchain</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" data-aos="fade-in" data-aos-duration="4000">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Disclaimer</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        &copy; 2024 JohnDev19. All Rights Reserved.
+    </div>
+</footer>
+
+<!-- Go-To-Top -->
+<div class="go-to-top">
+   <i class="bi bi-arrow-up"></i>
+</div>
+    <script src="script.js"></script>
+    <script src="testimonials_carousel.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
