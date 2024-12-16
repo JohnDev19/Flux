@@ -2,6 +2,8 @@
 
 Flux is a blogging platform for frontiers of technological stuffs. It serves as a resource hub for providing insights, tutorials and updates on the latest trends in technology.
 
+[Live Demo](https://flux-blog-puce.vercel.app/)
+
 ![Poster](poster1.jpg)
 ![Poster](poster2.jpg)
 
